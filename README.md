@@ -28,8 +28,8 @@ The system:
 
 
 ### Win Rate Analysis
+<img width="3283" height="1333" alt="NQF_trade_overview" src="https://github.com/user-attachments/assets/d5071e05-7cce-4ba5-8845-34dbac0f89dc" />
 
-![Win Rate](outputs/screenshots/win_rate_chart.png)
 
 ---
 
