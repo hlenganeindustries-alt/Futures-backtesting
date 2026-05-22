@@ -59,18 +59,58 @@ outputs/
 
 ## Latest Results
 
+# 📊 Backtest Results: NQ=F vs YM=F
 
-### NQ=F
+## Summary
 
-- Optimal Deviation Bucket: 1.00% - 1.25%
-- Win Rate: 100.00%
-- Sample Size: 1
+| Instrument | Overall Win Rate | Profit Factor | Optimal Deviation | Best Win Rate |
+|------------|----------------:|--------------:|------------------|--------------:|
+| **YM=F** | **64.1%** (25/39) | 2.42 | 0.0-0.2% | **71.4%** |
+| **NQ=F** | **33.3%** (7/21) | 0.46 | 0.2-0.4% | **50.0%** |
 
-### YM=F
+---
 
-- Optimal Deviation Bucket: 0.50% - 0.75%
-- Win Rate: 100.00%
-- Sample Size: 1
+## YM=F Performance
+
+| Metric | Value |
+|--------|-------|
+| Total Trades | 39 |
+| Wins / Losses | 25 / 14 |
+| Win Rate | **64.1%** |
+| Avg Win | +86.4 pts |
+| Avg Loss | -63.9 pts |
+| Profit Factor | **2.42** |
+
+**Optimal Entry:** Deviation < 0.2% → 71.4% win rate (7 trades)
+
+---
+
+## NQ=F Performance
+
+| Metric | Value |
+|--------|-------|
+| Total Trades | 21 |
+| Wins / Losses | 7 / 14 |
+| Win Rate | **33.3%** |
+| Avg Win | +51.6 pts |
+| Avg Loss | -56.4 pts |
+| Profit Factor | **0.46** |
+
+**Best Deviation:** 0.2-0.4% → 50.0% win rate (4 trades) - *effectively a coin flip*
+
+---
+
+## Verdict
+
+| | |
+|---|---|
+| ✅ **TRADE** | YM=F (positive expectancy) |
+| ❌ **AVOID** | NQ=F (negative expectancy) |
+
+---
+
+*Data period: Mar 24 - May 19, 2026*
+
 
 
 ---
