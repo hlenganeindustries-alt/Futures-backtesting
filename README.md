@@ -8,8 +8,8 @@ A quantitative futures trading research project studying how futures behave when
 
 This project investigates whether futures contracts that open significantly below their 200 MA tend to bounce back shortly after the NY market open.
 Which is 9:30 ET or 15:30 SAST
-The system:
 
+The system:
 - Downloads intraday futures data
 - Cleans and structures data
 - Measures opening deviation from the 200 MA
