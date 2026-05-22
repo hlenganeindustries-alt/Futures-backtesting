@@ -1,6 +1,6 @@
 # Futures Mean Reversion Research
 
-A  futures trading research project studying how futures behave when opening below the 200-period moving average.
+A  futures trading research , studying how futures behave when opening below the 200-period moving average.
 
 ---
 
