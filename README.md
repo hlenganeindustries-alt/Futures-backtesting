@@ -41,6 +41,7 @@ Yahoo Finance has  limited historical 5-minute futures data.
 Because of this limitation, backtests are performed in rolling batches of approximately 40 days at a time.
 
 The system automatically stitches and processes these batches to allow larger historical analysis while remaining within Yahoo Finance API limits.
+This is the most recent backtest results for the periods (24 March -14 May)
 
 ---
 
