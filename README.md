@@ -1,34 +1,96 @@
-# Futures 200 MA Open-Deviation Bounce Backtest
+# Futures Mean Reversion Research
 
-**Strategy:** At the 9:30 ET open, if price is below the 200-period MA by a threshold %, go long.
-- **Take Profit:** +50 points
-- **Stop Loss:** −30 points
-- **Risk:Reward:** 1:1.7
-- **Session window:** 9:30–10:30 ET (5-minute candles)
+A quantitative futures trading research project studying how futures behave when opening below the 200-period moving average.
 
-## Instruments
-- NQ=F (Nasdaq 100 Futures)
-- YM=F (Dow Jones Futures)
+---
 
-## Results Summary
+## Strategy Overview
 
-| Ticker | Optimal Dev Bucket | Win Rate | Sample Days |
-|--------|--------------------|----------|-------------|
-| NQ=F | 1.00% - 1.25% | 100.0% | 1 |
-| YM=F | 0.50% - 0.75% | 100.0% | 1 |
+This project investigates whether futures contracts that open significantly below their 200 MA tend to bounce back shortly after the NY market open.
 
-## Charts per Ticker
-- `*_trade_overview.png` — all trade entries/exits across the backtest period
-- `*_single_day_detail.png` — zoomed single-day candlestick with entry/TP/SL
-- `*_win_rate_by_deviation.png` — win rate by deviation bucket (with 30pt SL)
-- `*_candlestick_week.png` — sample week with signal overlays
-- `*_bounce_probability.png` — original probability chart
-- `backtest_results_*.csv` — full daily trade log
+The system:
 
-## How to Run
-```bash
-pip install yfinance mplfinance pandas numpy tabulate pytz matplotlib
-python futures_ma200_open_bounce.py
+- Downloads intraday futures data
+- Cleans and structures data
+- Measures opening deviation from the 200 MA
+- Simulates trades with TP/SL logic
+- Performs statistical bucket analysis
+- Generates interactive Plotly dashboards
+- Automatically updates GitHub outputs
+
+---
+
+## Example Dashboards
+
+### Trade Overview
+
+<img width="2533" height="1036" alt="YMF_single_day_detail" src="https://github.com/user-attachments/assets/cf955b9f-0c90-466a-9896-ae5b9b07dc8c" />
+
+
+### Win Rate Analysis
+
+![Win Rate](outputs/screenshots/win_rate_chart.png)
+
+---
+
+
+## Data Limitation Disclaimer
+
+Yahoo Finance has  limited historical 5-minute futures data. 
+
+Because of this limitation, backtests are performed in rolling batches of approximately 40 days at a time.
+
+The system automatically stitches and processes these batches to allow larger historical analysis while remaining within Yahoo Finance API limits.
+
+---
+
+## Repository Structure
+
+
+```text
+outputs/
+    csv/
+    html/
+    screenshots/
 ```
 
-*Auto-generated 2026-05-20 19:26*
+---
+
+## Latest Results
+
+
+### NQ=F
+
+- Optimal Deviation Bucket: 1.00% - 1.25%
+- Win Rate: 100.00%
+- Sample Size: 1
+
+### YM=F
+
+- Optimal Deviation Bucket: 0.50% - 0.75%
+- Win Rate: 100.00%
+- Sample Size: 1
+
+
+---
+
+## Technologies Used
+
+- Python
+- pandas
+- numpy
+- yfinance
+- plotly
+- matplotlib
+
+---
+
+## Project Purpose
+
+This repository was built to demonstrate:
+
+- Quantitative research workflows
+- Statistical analysis
+- Financial data engineering
+- Interactive visualization
+- Automated reporting
