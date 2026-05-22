@@ -1,13 +1,16 @@
 # Futures Mean Reversion Research
 
-A quantitative futures trading research project studying how futures behave when opening below the 200-period moving average.
+A  futures trading research project studying how futures behave when opening below the 200-period moving average.
 
 ---
 
 ## Strategy Overview
 
 This project investigates whether futures contracts that open significantly below their 200 MA tend to bounce back shortly after the NY market open.
-Which is 9:30 ET or 15:30 SAST
+Which is 9:30 ET or 15:30 SAST. My trading approach is based heavely around exploiting the trading volume at the start of NY  market open.
+and one of those strategies is the mean reversion strategy . at the start of the session ,i antisipate it to return to its opening price at 9:30(ET).
+
+i use this sytem that i built to help me back test this strategy
 
 The system:
 - Downloads intraday futures data
