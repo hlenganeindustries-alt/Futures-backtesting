@@ -14,8 +14,10 @@ Simulated results only — not financial advice.
 
 
 >READ.ME/
-    backtest reasults csv/
-    Python code use for System/
+
+>backtest reasults csv/
+
+>Python code use for System/
 
 
 >This project investigates whether futures contracts that open significantly below their 200 MA tend to bounce back shortly after the NY market open.
