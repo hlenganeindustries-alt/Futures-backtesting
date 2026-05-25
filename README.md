@@ -25,7 +25,7 @@ The system:
 
 ## Example Dashboards
 
-### Trade Overview
+### single trade Trade Overview example
 
 <img width="2533" height="1036" alt="YMF_single_day_detail" src="https://github.com/user-attachments/assets/cf955b9f-0c90-466a-9896-ae5b9b07dc8c" />
 
@@ -36,6 +36,7 @@ The system:
 
 ---
 
+<img width="3283" height="1333" alt="YMF_trade_overview" src="https://github.com/user-attachments/assets/b8b3601f-1e53-4d5c-9fcd-036c0d37e477" />
 
 ## Data Limitation Disclaimer
 
