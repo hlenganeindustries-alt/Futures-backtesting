@@ -1,8 +1,10 @@
 # Futures Mean Reversion Research
 
+
 A  futures trading research , studying how futures behave when opening below the 200-period moving average.
 
----
+ Disclaimer (i have not tested this strategy with live funds , these results were simulated using python ,and yahoo finance 5minute price data)
+--- This strategy is still a work in progress , I am still testing for the best possible entry criteria . This is just the logic behind the system
 
 ## Strategy Overview
 
@@ -28,7 +30,7 @@ The system:
 ### single trade Trade Overview example
 
 <img width="2533" height="1036" alt="YMF_single_day_detail" src="https://github.com/user-attachments/assets/cf955b9f-0c90-466a-9896-ae5b9b07dc8c" />
-After price deviated from the 200 SMA , by 0.5% deviation , the trade logic is that you should anticipate a reversion back in the direction of the 200 SMA
+After price deviated from the 200 SMA , by 0.2-0.4% deviation , the trade logic is that you should anticipate a reversion back in the direction of the 200 SMA
 
 ### Win Rate Analysis Nasdaq
 <img width="3283" height="1333" alt="NQF_trade_overview" src="https://github.com/user-attachments/assets/d5071e05-7cce-4ba5-8845-34dbac0f89dc" />
