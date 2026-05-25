@@ -36,7 +36,7 @@ After price deviated from the 200 SMA , by 0.2-0.4% deviation , the trade logic 
 ### Win Rate Analysis Nasdaq
 <img width="3283" height="1333" alt="NQF_trade_overview" src="https://github.com/user-attachments/assets/d5071e05-7cce-4ba5-8845-34dbac0f89dc" />
 
-###Win Rate Analysis Dow Jones
+### Win Rate Analysis Dow Jones
 
 Dow Jones perfomed the best over all in this 2 Month period
 ---
