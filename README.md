@@ -33,9 +33,10 @@ The system:
 <img width="2533" height="1036" alt="YMF_single_day_detail" src="https://github.com/user-attachments/assets/cf955b9f-0c90-466a-9896-ae5b9b07dc8c" />
 After price deviated from the 200 SMA , by 0.2-0.4% deviation , the trade logic is that you should anticipate a reversion back in the direction of the 200 SMA
 
- Win Rate Analysis Nasdaq
+### Win Rate Analysis Nasdaq
 <img width="3283" height="1333" alt="NQF_trade_overview" src="https://github.com/user-attachments/assets/d5071e05-7cce-4ba5-8845-34dbac0f89dc" />
-Win Rate Analysis Dow Jones
+
+###Win Rate Analysis Dow Jones
 
 Dow Jones perfomed the best over all in this 2 Month period
 ---
