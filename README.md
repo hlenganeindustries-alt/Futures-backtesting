@@ -13,7 +13,7 @@ Simulated results only — not financial advice.
 Which is 9:30 ET or 15:30 SAST. My trading approach is based heavely around exploiting the trading volume at the start of NY  market open.
 and one of those strategies is the mean reversion strategy . at the start of the session ,i antisipate it to return to its opening price at 9:30(ET).
 
-i use this sytem  to help me back test this strategy
+I use this sytem  to help me back test this strategy
 
 The system:
 - Downloads intraday futures data
