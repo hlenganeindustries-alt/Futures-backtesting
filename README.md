@@ -66,15 +66,14 @@ This is the most recent backtest results for the periods (24 March -14 May)
 ---
 
     
-```
+
 
 ---
+ Latest Results
 
-## Latest Results
+###📊 Backtest Results: NQ=F vs YM=F
 
-# 📊 Backtest Results: NQ=F vs YM=F
-
-## Summary
+###Summary
 
 | Instrument | Overall Win Rate | Profit Factor | Optimal Deviation | Best Win Rate |
 |------------|----------------:|--------------:|------------------|--------------:|
